@@ -28,5 +28,15 @@
 
 <br/>
 
+## 감염병지원단 논문
+- 추진상황:  
+
+| 주제선정 | 데이터분석 | 배경 | 방법 | 결과 | 고찰 | 영문교정 | 논문제출 | 리비전 | 퍼블리쉬 |
+| :--------: | :--------: |  :--------: |  :--------: |  :--------: |  :--------: |  :--------: |  :--------: |  :--------: |  :--------: | 
+| :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |:triangular_flag_on_post: |  |  |
+
+
+<br/>
+
 ## 추진일정
 ![일정](./calander.JPG)
