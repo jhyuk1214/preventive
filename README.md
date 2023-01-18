@@ -11,7 +11,7 @@
   ![openaccess_2](./openaccess_2.png)
 
   + 다른 타겟 저널 선정 고려 필요성.
-  + 최경화 교수님 추가 의견: 표형태변경, 참고문헌추가, 내용보완 등 almost everything 반영.
+  + 최경화 교수님 추가 의견: graphical abstract보완, 표형태변경, 참고문헌추가, 내용보완 등 almost everything 반영.
   + 추진상황:
 
 | 주제선정 | 데이터분석 | 배경 | 방법 | 결과 | 고찰 | 영문교정 | 논문제출 | 리비전 | 퍼블리쉬 |
