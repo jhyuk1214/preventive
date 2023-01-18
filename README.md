@@ -26,4 +26,9 @@
 - 타겟저널: 미정
 - **먼저 계획서 작성하여 IRB 추진 예정**
 
+  ![death_1](./death_1.PNG)
+  ![death_2](./death_2.PNG)
+  ![death_3](./death_3.PNG)
+  ![death_4](./death_4.PNG)
+    
 <br/>
