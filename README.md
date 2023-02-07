@@ -3,7 +3,7 @@
 <br/>
 
 ## 폭염 사망영향 논문
-- 관련자료: [manuscript](https://www.dropbox.com/s/dpchmavxnru56pc/manuscript_v6.docx?dl=0), [cover letter](https://www.dropbox.com/s/7tj9p6tmw8ceaxi/cover_letter.docx?dl=0), [declaration statement](https://www.dropbox.com/s/7qhtzbbsav8lwt1/declarationStatement.docx?dl=0), [figures](https://www.dropbox.com/s/ovgricll03q3wxp/figures.docx?dl=0), [tables](https://www.dropbox.com/s/docv4wr01nwy9t8/tables.docx?dl=0), [graphical abstract](https://www.dropbox.com/s/gcmrkwa7fua94el/graphical%20abstract.png?dl=0), [highlights](https://www.dropbox.com/s/0kilf62j6zd00t1/highlights.docx?dl=0) 
+- 관련자료: [제출본](https://www.dropbox.com/s/hfr2gthyv0wn0fl/ER-23-766.pdf?dl=0), [manuscript](https://www.dropbox.com/s/dpchmavxnru56pc/manuscript_v6.docx?dl=0), [cover letter](https://www.dropbox.com/s/7tj9p6tmw8ceaxi/cover_letter.docx?dl=0), [declaration statement](https://www.dropbox.com/s/7qhtzbbsav8lwt1/declarationStatement.docx?dl=0), [figures](https://www.dropbox.com/s/ovgricll03q3wxp/figures.docx?dl=0), [tables](https://www.dropbox.com/s/docv4wr01nwy9t8/tables.docx?dl=0), [graphical abstract](https://www.dropbox.com/s/gcmrkwa7fua94el/graphical%20abstract.png?dl=0), [highlights](https://www.dropbox.com/s/0kilf62j6zd00t1/highlights.docx?dl=0) 
 - 최경화 교수님 추가 의견: graphical abstract보완, 표형태변경, 참고문헌추가, 내용보완 등 almost everything 반영.
 - 타겟저널:
   ![target](./target.JPG)
