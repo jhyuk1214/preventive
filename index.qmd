@@ -5,7 +5,7 @@ format: html
 
 # 폭염 사망 영향 논문
 - Epidemiology and Health: 리젝
- 
+- 리뷰어 지적사항: 수정 중..
 
 # 코로나19판데믹 영향 논문
 - WHO 방법론 리뷰: 진행 중..
