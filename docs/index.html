@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Report</title>
+<title>진행사항보고</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Report</h1>
+<h1 class="title">진행사항보고</h1>
 </div>
 
 
@@ -88,17 +88,107 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="폭염-사망-영향-논문" class="level1">
-<h1>폭염 사망 영향 논문</h1>
+<section id="폭염-사망-영향-논문" class="level2">
+<h2 class="anchored" data-anchor-id="폭염-사망-영향-논문">폭염 사망 영향 논문</h2>
 <ul>
 <li>Epidemiology and Health: 리젝</li>
-<li>리뷰어 지적사항: 수정 중..</li>
+<li>리뷰어 지적사항: 수정 중..
+<ul>
+<li>Introduction: 왜 그 두기간이 선정되었는지 설명 부족</li>
+<li>DLNM 모델에서 daily maximum temp.와 death의 관계는 a quadratic B spline with two internal knots at the 50th and 90th를 사용했고, lag와 death의 관계는 최대 래그 6일에 a natural cubic spline with an intercept and two internal knots equally spaced on the logarithmic scale (4 degrees of freedom)를 사용했는데, 왜 모델을 그렇게 선택한 것인지? model performance에 따라? 이전 연구 지식에 따라? 정확한 레셔네일이 없다면 sensitivity analysis를 제시할 것.</li>
+<li>다른 covariates들도 spline을 적용했다면, 어떤 spline인지와 df를 제시할 것.</li>
+<li>니가말한대로 heatwave의 크라이터리아는 여러가지 이지만, 너의 분석에서 30도를 기준으로 제시한 레셔네일은 무엇인가? 참고로, 한국 기상청은 33도씨를 기준으로 한다.</li>
+<li>안타깝게도 너의 결과들은 통계적으로 유의하지 않음. 따라서, 가치가 없는것은 아니지만, 초록 등에서 톤 다운이 필요하다.
+<ul>
+<li><strong>전체적으로 재분석+재작성하여 2023-06-30 금요일까지 회람하겠습니다.</strong></li>
+</ul></li>
+</ul></li>
 </ul>
 </section>
-<section id="코로나19판데믹-영향-논문" class="level1">
-<h1>코로나19판데믹 영향 논문</h1>
+<section id="코로나19판데믹-영향-논문" class="level2">
+<h2 class="anchored" data-anchor-id="코로나19판데믹-영향-논문">코로나19판데믹 영향 논문</h2>
 <ul>
-<li>WHO 방법론 리뷰: 진행 중..</li>
+<li>WHO 방법론 리뷰
+<ul>
+<li><a href="https://www.nature.com/articles/s41586-022-05522-2#Sec6">WHO 논문</a></li>
+<li><a href="https://www.who.int/data/sets/global-excess-deaths-associated-with-covid-19-modelled-estimates">WHO 결과 파일</a></li>
+<li><a href="https://cdn.who.int/media/docs/default-source/world-health-data-platform/covid-19-excessmortality/who_methods_for_estimating_the_excess_mortality_associated_with_the_covid-19_pandemic.pdf?sfvrsn=5a05fa76_2&amp;download=true">WHO 방법론 레퍼런스</a>
+<ul>
+<li><strong>데이터</strong>: For this study, our main sources of data are reports of ACM as collected and reported by countries’ relevant institutions – from national statistics offices, ministries of health, population registries, etc. These have been collected in several repositories such as the data routinely shared with WHO as part of its standing agreement with member states, Eurostat, The Human Mortality Database (HMD) as part of the Short-Term Mortality Fluctuations (STMF) project (Nemeth, Jdanov, and Shkolnikov ´ , 2021) and the World Mortality Dataset (WMD), as described in Karlinsky and Kobak (2021).</li>
+<li><strong>covariates</strong>
+<ul>
+<li>a high income country binary indicator</li>
+<li>COVID-19 test positivity rate</li>
+<li>COVID-19 death rate</li>
+<li>temperature</li>
+<li>population density</li>
+<li>sociodemographic index (SDI)</li>
+<li>human development index (HDI)</li>
+<li>stringency (index for lockdown restrictions and closures)</li>
+<li>overall government response</li>
+<li>economic (including measures such as income support and debt relief)</li>
+<li>containment (combines lockdown restrictions and closures)</li>
+<li>historic non-communicable disease rates</li>
+<li>historic cardiovascular disease rate</li>
+<li>historic HIV rate</li>
+<li>historic diabetes prevalence</li>
+<li>life expectancy</li>
+<li>proportion of the population under-15</li>
+<li>proportion of the population over-65</li>
+</ul></li>
+<li><strong>모델링</strong> 방법
+<ul>
+<li>Deriving expected mortality for years 2020 and 2021
+<ul>
+<li>Those that have historic <strong>monthly</strong> ACM data (100 countries)
+<ul>
+<li>대개 2015-2019년 기간 데이터에 기반</li>
+<li>outcome distribution: negative binomial</li>
+<li>yealy trend: a thin-plate spline</li>
+<li>within-year seasonal variation: a cyclic cubic spline</li>
+<li>the <code>gam</code> function in the <code>mgcv</code> package</li>
+<li>spline model은 각 나라별로 fitted됨.</li>
+</ul></li>
+<li>Those that have historic <strong>annual</strong> ACM data only (94 countries)
+<ul>
+<li>대개 2000-2019년 기간 데이터에 기반</li>
+<li>이전모델에서 monthly term을 제외함 (i.e., a spline in year)</li>
+<li>월별로 사망을 배분하기 위해서, 월별 기온과 사망의 관계를 이용해서 배분함.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="기후보건과제" class="level2">
+<h2 class="anchored" data-anchor-id="기후보건과제">기후보건과제</h2>
+<ul>
+<li>최근 기후변화 논문 쓴 국내 저자 리스트업: 진행 중..</li>
+</ul>
+</section>
+<section id="미세먼지과제" class="level2">
+<h2 class="anchored" data-anchor-id="미세먼지과제">미세먼지과제</h2>
+<ul>
+<li>울산대 오인보 교수님 모델링자료 기술분석: 진행 중..</li>
+</ul>
+</section>
+<section id="극한기후과제" class="level2">
+<h2 class="anchored" data-anchor-id="극한기후과제">극한기후과제</h2>
+<ul>
+<li>집중호우 이벤트 기간과 질병코드 전달(완료)</li>
+</ul>
+</section>
+<section id="단국대-통계지원팀" class="level2">
+<h2 class="anchored" data-anchor-id="단국대-통계지원팀">단국대 통계지원팀</h2>
+<ul>
+<li>현정근교수님: 재재재재재… 분석하여 전달. 매뉴스크립트 작성 중.</li>
+</ul>
+</section>
+<section id="단국대-예방의학교실-선택실습" class="level2">
+<h2 class="anchored" data-anchor-id="단국대-예방의학교실-선택실습">단국대 예방의학교실 선택실습</h2>
+<ul>
+<li><a href="https://www.dropbox.com/s/f9vvrmn89g0x3jg/2023%20%EB%B3%B8%EA%B3%BC4%ED%95%99%EB%85%84%20%EC%98%88%EB%B0%A9%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%84%A0%ED%83%9D%EC%8B%A4%EC%8A%B5%20%EC%9D%BC%EC%A0%95.hwp?dl=0">일정</a></li>
 </ul>
 
 

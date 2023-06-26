@@ -2,8 +2,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Report",
+    "title": "진행사항보고",
     "section": "",
-    "text": "코로나19판데믹 영향 논문\n\nWHO 방법론 리뷰: 진행 중.."
+    "text": "Epidemiology and Health: 리젝\n리뷰어 지적사항: 수정 중..\n\nIntroduction: 왜 그 두기간이 선정되었는지 설명 부족\nDLNM 모델에서 daily maximum temp.와 death의 관계는 a quadratic B spline with two internal knots at the 50th and 90th를 사용했고, lag와 death의 관계는 최대 래그 6일에 a natural cubic spline with an intercept and two internal knots equally spaced on the logarithmic scale (4 degrees of freedom)를 사용했는데, 왜 모델을 그렇게 선택한 것인지? model performance에 따라? 이전 연구 지식에 따라? 정확한 레셔네일이 없다면 sensitivity analysis를 제시할 것.\n다른 covariates들도 spline을 적용했다면, 어떤 spline인지와 df를 제시할 것.\n니가말한대로 heatwave의 크라이터리아는 여러가지 이지만, 너의 분석에서 30도를 기준으로 제시한 레셔네일은 무엇인가? 참고로, 한국 기상청은 33도씨를 기준으로 한다.\n안타깝게도 너의 결과들은 통계적으로 유의하지 않음. 따라서, 가치가 없는것은 아니지만, 초록 등에서 톤 다운이 필요하다.\n\n전체적으로 재분석+재작성하여 2023-06-30 금요일까지 회람하겠습니다."
+  },
+  {
+    "objectID": "index.html#코로나19판데믹-영향-논문",
+    "href": "index.html#코로나19판데믹-영향-논문",
+    "title": "진행사항보고",
+    "section": "코로나19판데믹 영향 논문",
+    "text": "코로나19판데믹 영향 논문\n\nWHO 방법론 리뷰\n\nWHO 논문\nWHO 결과 파일\nWHO 방법론 레퍼런스\n\n데이터: For this study, our main sources of data are reports of ACM as collected and reported by countries’ relevant institutions – from national statistics offices, ministries of health, population registries, etc. These have been collected in several repositories such as the data routinely shared with WHO as part of its standing agreement with member states, Eurostat, The Human Mortality Database (HMD) as part of the Short-Term Mortality Fluctuations (STMF) project (Nemeth, Jdanov, and Shkolnikov ´ , 2021) and the World Mortality Dataset (WMD), as described in Karlinsky and Kobak (2021).\ncovariates\n\na high income country binary indicator\nCOVID-19 test positivity rate\nCOVID-19 death rate\ntemperature\npopulation density\nsociodemographic index (SDI)\nhuman development index (HDI)\nstringency (index for lockdown restrictions and closures)\noverall government response\neconomic (including measures such as income support and debt relief)\ncontainment (combines lockdown restrictions and closures)\nhistoric non-communicable disease rates\nhistoric cardiovascular disease rate\nhistoric HIV rate\nhistoric diabetes prevalence\nlife expectancy\nproportion of the population under-15\nproportion of the population over-65\n\n모델링 방법\n\nDeriving expected mortality for years 2020 and 2021\n\nThose that have historic monthly ACM data (100 countries)\n\n대개 2015-2019년 기간 데이터에 기반\noutcome distribution: negative binomial\nyealy trend: a thin-plate spline\nwithin-year seasonal variation: a cyclic cubic spline\nthe gam function in the mgcv package\nspline model은 각 나라별로 fitted됨.\n\nThose that have historic annual ACM data only (94 countries)\n\n대개 2000-2019년 기간 데이터에 기반\n이전모델에서 monthly term을 제외함 (i.e., a spline in year)\n월별로 사망을 배분하기 위해서, 월별 기온과 사망의 관계를 이용해서 배분함."
+  },
+  {
+    "objectID": "index.html#기후보건과제",
+    "href": "index.html#기후보건과제",
+    "title": "진행사항보고",
+    "section": "기후보건과제",
+    "text": "기후보건과제\n\n최근 기후변화 논문 쓴 국내 저자 리스트업: 진행 중.."
+  },
+  {
+    "objectID": "index.html#미세먼지과제",
+    "href": "index.html#미세먼지과제",
+    "title": "진행사항보고",
+    "section": "미세먼지과제",
+    "text": "미세먼지과제\n\n울산대 오인보 교수님 모델링자료 기술분석: 진행 중.."
+  },
+  {
+    "objectID": "index.html#극한기후과제",
+    "href": "index.html#극한기후과제",
+    "title": "진행사항보고",
+    "section": "극한기후과제",
+    "text": "극한기후과제\n\n집중호우 이벤트 기간과 질병코드 전달(완료)"
+  },
+  {
+    "objectID": "index.html#단국대-통계지원팀",
+    "href": "index.html#단국대-통계지원팀",
+    "title": "진행사항보고",
+    "section": "단국대 통계지원팀",
+    "text": "단국대 통계지원팀\n\n현정근교수님: 재재재재재… 분석하여 전달. 매뉴스크립트 작성 중."
+  },
+  {
+    "objectID": "index.html#단국대-예방의학교실-선택실습",
+    "href": "index.html#단국대-예방의학교실-선택실습",
+    "title": "진행사항보고",
+    "section": "단국대 예방의학교실 선택실습",
+    "text": "단국대 예방의학교실 선택실습\n\n일정"
   }
 ]
