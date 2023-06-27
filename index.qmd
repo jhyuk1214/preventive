@@ -4,14 +4,15 @@ format: html
 ---
 
 ## 폭염 사망 영향 논문
+- ISEE: POSTER DISCUSSION 07 (September 20, 2023 / 10:45:00 AM - 12:15:00 PM): 5 minute on poster board presentation, including Q&A(진행 중)
 - Epidemiology and Health: 리젝
-- 리뷰어 지적사항: 수정 중..
+- 리뷰어 지적사항(진행 중)
   + Introduction: 왜 그 두기간이 선정되었는지 설명 부족
   + DLNM 모델에서 daily maximum temp.와 death의 관계는 a quadratic B spline with two internal knots at the 50th and 90th를 사용했고, lag와 death의 관계는 최대 래그 6일에 a natural cubic spline with an intercept and two internal knots equally spaced on the logarithmic scale (4 degrees of freedom)를 사용했는데, 왜 모델을 그렇게 선택한 것인지? model performance에 따라? 이전 연구 지식에 따라? 정확한 레셔네일이 없다면 sensitivity analysis를 제시할 것.
   + 다른 covariates들도 spline을 적용했다면, 어떤 spline인지와 df를 제시할 것.
   + 니가말한대로 heatwave의 크라이터리아는 여러가지 이지만, 너의 분석에서 30도를 기준으로 제시한 레셔네일은 무엇인가? 참고로, 한국 기상청은 33도씨를 기준으로 한다.
   + 안타깝게도 너의 결과들은 통계적으로 유의하지 않음. 따라서, 가치가 없는것은 아니지만, 초록 등에서 톤 다운이 필요하다.
-    - **전체적으로 재분석+재작성하여 2023-06-30 금요일까지 회람하겠습니다.**
+    - **전체적으로 재분석+재작성**
   
 ## 코로나19판데믹 영향 논문
 - WHO 방법론 리뷰
@@ -53,22 +54,26 @@ format: html
           - 이전모델에서 monthly term을 제외함 (i.e., a spline in year)
           - 월별로 사망을 배분하기 위해서, 월별 기온과 사망의 관계를 이용해서 배분함.
 
+## 수면 논문
+- 학생에게 관련자료 수신(완료).
+- 수정 진행중.(진행 중)
 
 ## 기후보건과제
-- 최근 기후변화 논문 쓴 국내 저자 리스트업: 진행 중..
+- 최근 기후변화 논문 쓴 국내 저자 리스트업(진행 중)
 
 ## 미세먼지과제
-- 울산대 오인보 교수님 모델링자료 기술분석: 진행 중..
+- 울산대 오인보 교수님 모델링자료 기술분석(진행 중)
 
 ## 극한기후과제
 - 집중호우 이벤트 기간과 질병코드 전달(완료)
 
 ## 전자파과제
-- 서베이몽키: 설문문항 정리 등
-- 스마트워치: 측정대상자수 확인메일 보내기 등
+- 서베이몽키: 설문문항 정리 등(진행 중)
+- 스마트워치: 측정대상자수 확인메일 보내기 등(진행 중)
+- 한국전자파학회 하계종합학술대회 발표: 2023년 8월 23일(수) / 델피노리조트(강원도 고성군 토성면 미시령옛길 1153)(진행 중)
 
 ## 단국대 통계지원팀
-- 현정근교수님: 재재재재재... 분석하여 전달. 매뉴스크립트 작성 중.
+- 현정근교수님: 재재재재재... 분석하여 전달. 매뉴스크립트 작성 중.(진행 중)
 
 ## 단국대 예방의학교실 선택실습
-- [일정](https://www.dropbox.com/s/f9vvrmn89g0x3jg/2023%20%EB%B3%B8%EA%B3%BC4%ED%95%99%EB%85%84%20%EC%98%88%EB%B0%A9%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%84%A0%ED%83%9D%EC%8B%A4%EC%8A%B5%20%EC%9D%BC%EC%A0%95.hwp?dl=0)
+- [일정](https://www.dropbox.com/s/f9vvrmn89g0x3jg/2023%20%EB%B3%B8%EA%B3%BC4%ED%95%99%EB%85%84%20%EC%98%88%EB%B0%A9%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%84%A0%ED%83%9D%EC%8B%A4%EC%8A%B5%20%EC%9D%BC%EC%A0%95.hwp?dl=0)(진행 중)
