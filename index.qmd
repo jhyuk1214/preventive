@@ -1,9 +1,8 @@
 ---
 title: "진행사항보고"
-date: "Last update : `r format(Sys.time(), '%d %B, %Y')`"
-format:
-  html:
-    theme: cosmo
+date: last-modified
+date-format: "[Last Updated on] MMMM D, YYYY"
+format: html
 ---
 
 ## 폭염 사망 영향 논문
