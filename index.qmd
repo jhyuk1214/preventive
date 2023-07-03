@@ -6,7 +6,7 @@ format: html
 ---
 
 ## 폭염 사망 영향 논문
--   ISEE: POSTER DISCUSSION 07 (September 20, 2023 / 10:45:00 AM - 12:15:00 PM): 5 minute on poster board presentation, including Q&A(진행 중)
+-   **ISEE: POSTER DISCUSSION 07** (September 20, 2023 / 10:45:00 AM - 12:15:00 PM): 5 minute on poster board presentation, including Q&A**(진행 중)**
 -   Epidemiology and Health: 리젝
 -   리뷰어 지적사항
     -   Introduction: 왜 그 두기간이 선정되었는지 설명 부족
@@ -25,19 +25,19 @@ format: html
 
 ## 극한기후과제
 -   집중호우 이벤트 기간과 질병코드 전달(완료)
--   **2020년도 집중호우 이벤트 - 사망 관계 예시 분석 (진행중)**
+-   **2020년도 집중호우 이벤트 - 사망 관계 예시 분석(진행중)**
 
 ## 수면 논문
 -   학생에게 추가 관련자료 수신(완료)
 -   **수정 진행중(진행 중)**
 
 ## 전자파과제
--   서베이몽키: 설문문항 정리 등(진행 중)
+-   **서베이몽키: 설문문항 정리 등(진행 중)**
 -   스마트워치: 측정대상자수 확인메일 보내기(완료)
--   한국전자파학회 하계종합학술대회 발표: 2023년 8월 23일(수) / 델피노리조트(강원도 고성군 토성면 미시령옛길 1153)(진행 중)
+-   **한국전자파학회 하계종합학술대회 발표**: 2023년 8월 23일(수) / 델피노리조트(강원도 고성군 토성면 미시령옛길 1153)**(진행 중)**
 
 ## 단국대 통계지원팀
--   현정근교수님: 분석하여 지속 전달 중. 매누스크립트 작성 중(진행 중)
+-   현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료)
 
 ## 기타
 -   [단국대 예방의학교실 선택실습 일정](https://www.dropbox.com/s/f9vvrmn89g0x3jg/2023%20%EB%B3%B8%EA%B3%BC4%ED%95%99%EB%85%84%20%EC%98%88%EB%B0%A9%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%84%A0%ED%83%9D%EC%8B%A4%EC%8A%B5%20%EC%9D%BC%EC%A0%95.hwp?dl=0)(진행 중)
