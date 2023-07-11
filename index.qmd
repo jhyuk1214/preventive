@@ -15,17 +15,21 @@ format: html
     -   니가말한대로 heatwave의 크라이터리아는 여러가지 이지만, 너의 분석에서 30도를 기준으로 제시한 레셔네일은 무엇인가? 참고로, 한국 기상청은 33도씨를 기준으로 한다.
     -   안타깝게도 너의 결과들은 통계적으로 유의하지 않음. 따라서, 가치가 없는것은 아니지만, 초록 등에서 톤 다운이 필요하다.
 -   **JKMS 재제출을 위한 보완(진행중)**
+  + [Tables](https://www.dropbox.com/scl/fi/kbupwho4hfwr9iwedq6b9/tables.docx?rlkey=h82ltto306i23vo3k0rmqs5nk&dl=0)
+  + [Figures](https://www.dropbox.com/scl/fi/n6ouup84e1f1t8e8f4y8p/figures.pptx?rlkey=p0lubcl5cmkygw0qh63cevn2c&dl=0)
 
 ## 미세먼지과제
--   [**서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석**](https://www.dropbox.com/s/eobtjwmbm63w8jm/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%EB%8C%80%EA%B8%B0%EC%98%A4%EC%97%BC%EB%AC%BC%EC%A7%88%20%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%84%20%EC%A0%81%EC%9A%A9%ED%95%9C%20%EB%8B%A8%EA%B8%B0%EA%B1%B4%EA%B0%95%EC%98%81%ED%96%A5%20%EB%B6%84%EC%84%9D.pptx?dl=0)
+-   [서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석](https://www.dropbox.com/s/eobtjwmbm63w8jm/%EC%84%9C%EC%9A%B8%EC%8B%9C%20%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C%20%EB%8C%80%EA%B8%B0%EC%98%A4%EC%97%BC%EB%AC%BC%EC%A7%88%20%EB%AA%A8%EB%8D%B8%EB%A7%81%EC%9D%84%20%EC%A0%81%EC%9A%A9%ED%95%9C%20%EB%8B%A8%EA%B8%B0%EA%B1%B4%EA%B0%95%EC%98%81%ED%96%A5%20%EB%B6%84%EC%84%9D.pptx?dl=0)
     -   울산대 오인보 교수님 하이브리드 모델링 자료 이용
+    - **지역코드문제로 shp 파일 전달하고 재산출(진행중)**
 
 ## 기후보건과제
 -   **[최근 기후변화 논문 쓴 국내 저자 리스트업](https://www.dropbox.com/s/zsce1r2lld7ym8m/search.xlsx?dl=0)(진행 중)**
 
 ## 극한기후과제
 -   집중호우 이벤트 기간과 질병코드 전달(완료)
--   **2020년도 집중호우 이벤트 - 사망 관계 예시 분석(진행중)**
+-   2020년도 집중호우 이벤트 - 사망 관계 예시 분석(완료)
+- **집중호우 ~ 사망 영향 메인분석(진행 중), NHIS, NEDIS 데이터 waiting(진행중)**
 
 ## 수면 논문
 -   학생에게 추가 관련자료 수신(완료)
@@ -38,6 +42,8 @@ format: html
 
 ## 단국대 통계지원팀
 -   현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료)
+- **소아과 유지숙 교수님 상담(예정)**
+- **성형외과 임남규 교수님 문의**
 
 ## 기타
 -   [단국대 예방의학교실 선택실습 일정](https://www.dropbox.com/s/f9vvrmn89g0x3jg/2023%20%EB%B3%B8%EA%B3%BC4%ED%95%99%EB%85%84%20%EC%98%88%EB%B0%A9%EC%9D%98%ED%95%99%EA%B3%BC%20%EC%84%A0%ED%83%9D%EC%8B%A4%EC%8A%B5%20%EC%9D%BC%EC%A0%95.hwp?dl=0)(진행 중)
