@@ -4,28 +4,28 @@
     "href": "index.html",
     "title": "진행사항보고",
     "section": "",
-    "text": "ISEE: POSTER DISCUSSION 07 (September 20, 2023 / 10:45:00 AM - 12:15:00 PM): 5 minute on poster board presentation, including Q&A(진행 중)\nEpidemiology and Health: 리젝\n리뷰어 지적사항\n\nIntroduction: 왜 그 두기간이 선정되었는지 설명 부족\nDLNM 모델에서 daily maximum temp.와 death의 관계는 a quadratic B spline with two internal knots at the 50th and 90th를 사용했고, lag와 death의 관계는 최대 래그 6일에 a natural cubic spline with an intercept and two internal knots equally spaced on the logarithmic scale (4 degrees of freedom)를 사용했는데, 왜 모델을 그렇게 선택한 것인지? model performance에 따라? 이전 연구 지식에 따라? 정확한 레셔네일이 없다면 sensitivity analysis를 제시할 것.\n다른 covariates들도 spline을 적용했다면, 어떤 spline인지와 df를 제시할 것.\n니가말한대로 heatwave의 크라이터리아는 여러가지 이지만, 너의 분석에서 30도를 기준으로 제시한 레셔네일은 무엇인가? 참고로, 한국 기상청은 33도씨를 기준으로 한다.\n안타깝게도 너의 결과들은 통계적으로 유의하지 않음. 따라서, 가치가 없는것은 아니지만, 초록 등에서 톤 다운이 필요하다.\n\nJKMS 재제출을 위한 보완(진행중)\nTables\nFigures"
+    "text": "ISEE: POSTER DISCUSSION 07 (September 20, 2023 / 10:45:00 AM - 12:15:00 PM): 5 minute on poster board presentation, including Q&A(포스터 작성, 진행 중)\nJKMS 재제출(완료, Under Review)"
   },
   {
     "objectID": "index.html#미세먼지과제",
     "href": "index.html#미세먼지과제",
     "title": "진행사항보고",
     "section": "미세먼지과제",
-    "text": "미세먼지과제\n\n서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석\n\n울산대 오인보 교수님 하이브리드 모델링 자료 이용\n지역코드문제로 shp 파일 전달하고 재산출(진행중)"
+    "text": "미세먼지과제\n\n서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석\n\n2017 ~ 2019년 동별 데이터 확보 (완료)\n노출 매핑 분석 (완료)\n건강 영향 분석 (진행중)"
   },
   {
     "objectID": "index.html#기후보건과제",
     "href": "index.html#기후보건과제",
     "title": "진행사항보고",
     "section": "기후보건과제",
-    "text": "기후보건과제\n\n최근 기후변화 논문 쓴 국내 저자 리스트업(진행 중)"
+    "text": "기후보건과제\n\n중기추진과제도출\n\n한국 기후보건 연구 논문 1차 평가 (완료)\n한국 기후보건 연구 논문 2차 평가 (진행중)\n\n검색식 보완, DB 보완하여 분석 수행\n보완된 DB 분석을 통해 미래과제 필요성 및 시사점 추가 도출"
   },
   {
     "objectID": "index.html#극한기후과제",
     "href": "index.html#극한기후과제",
     "title": "진행사항보고",
     "section": "극한기후과제",
-    "text": "극한기후과제\n\n집중호우 이벤트 기간과 질병코드 전달(완료)\n2020년도 집중호우 이벤트 - 사망 관계 예시 분석(완료)\n집중호우 ~ 사망 영향 메인분석(진행 중), NHIS, NEDIS 데이터 waiting(진행중)\n한국역학회 추계학술대회 포스터 발표\n\n초록제출마감: 8월 11일\n학술대회 일정 / 장소: 9월 15일 / 스위스그랜드호텔 그랜드볼룸"
+    "text": "극한기후과제\n\n집중호우 이벤트 기간과 질병코드 전달(완료)\n2020년도 집중호우 이벤트 - 사망 관계 예시 분석(완료)\n집중호우 이벤트 ~ 사망 분석 (BSTS, DLNM 모델) (진행중)\nNHIS, NEDIS 데이터 waiting(진행중)\n한국역학회 추계학술대회 포스터 발표\n\n초록제출(완료), 포스터 작성(진행중)\n학술대회 일정 / 장소: 9월 15일 / 스위스그랜드호텔 그랜드볼룸"
   },
   {
     "objectID": "index.html#수면-논문",
@@ -39,21 +39,28 @@
     "href": "index.html#전자파과제",
     "title": "진행사항보고",
     "section": "전자파과제",
-    "text": "전자파과제\n\n서베이몽키: 설문문항 정리 등(진행 중)\n스마트워치: 측정대상자수 확인메일 보내기(완료)\n한국전자파학회 하계종합학술대회 발표: 2023년 8월 23일(수) / 델피노리조트(강원도 고성군 토성면 미시령옛길 1153)(진행 중)"
+    "text": "전자파과제\n\n서베이몽키: 설문문항 정리 등(완료)\n스마트워치: 측정대상자수 확인메일 보내기(완료)\n한국전자파학회 하계종합학술대회 발표: 2023년 8월 23일(수) / 델피노리조트(강원도 고성군 토성면 미시령옛길 1153)(진행 중)\nISEE 포스터: 코첸스 임신중 휴대전화 사용에 따른 임신결과(성향점수 이용)\n\n초록제출(완료)"
   },
   {
-    "objectID": "index.html#단국대-통계지원팀",
-    "href": "index.html#단국대-통계지원팀",
+    "objectID": "index.html#논문주제1-국내에서-연령-표준화-했을-때-초미세먼지에-따른-질병부담초과사망-추정",
+    "href": "index.html#논문주제1-국내에서-연령-표준화-했을-때-초미세먼지에-따른-질병부담초과사망-추정",
     "title": "진행사항보고",
-    "section": "단국대 통계지원팀",
-    "text": "단국대 통계지원팀\n\n현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료)\n소아과 유지숙 교수님 상담(예정)\n성형외과 임남규 교수님 문의"
+    "section": "논문주제1: 국내에서 연령 표준화 했을 때, 초미세먼지에 따른 질병부담(초과사망) 추정",
+    "text": "논문주제1: 국내에서 연령 표준화 했을 때, 초미세먼지에 따른 질병부담(초과사망) 추정\n\nGBD 2019 데이터 리소스\n초미세먼지IER 커브 데이터: Global Burden of Disease Study 2019 (GBD 2019) Particulate Matter Risk Curves\n란싯논문\nPM2.5 IER function 파라메터 관련 내용\nR에서 연속형노출 RR function 이 주어졌을 때 PAF 산출"
+  },
+  {
+    "objectID": "index.html#논문주제1-폭염에-따른-외인사망-영향",
+    "href": "index.html#논문주제1-폭염에-따른-외인사망-영향",
+    "title": "진행사항보고",
+    "section": "논문주제1: 폭염에 따른 외인사망 영향",
+    "text": "논문주제1: 폭염에 따른 외인사망 영향\n\n주제: 폭염이 외인사망(external mortality)에 미치는 영향 (열대야 영향으로 다음날 액티비티에 영향)\n단순확인 분석결과"
   },
   {
     "objectID": "index.html#기타",
     "href": "index.html#기타",
     "title": "진행사항보고",
     "section": "기타",
-    "text": "기타\n\n단국대 예방의학교실 선택실습 일정(진행 중)\n휴가: 8월 28일 ~ 9월 1일\n충남 감염병관리지원단\n\n코로나19 PCC 논문 2차 리비젼 제출(완료)\nFETP-F 담당자 교육(진행중)\n\n주제: 역학조사 통계분석 이해 / 일시: 2023. 8. 8.(화), 09:00~12:00\n강의자료 기한: 7. 28.(금)\n\n\n곽대현 선생 녹지 논문\n\n데이터 분석(진행중)\n\n논문리뷰"
+    "text": "기타\n\n예방의학 및 실습 강의\n예방의학교실 학생 선택실습 일정\n휴가: 8월 28일 ~ 9월 1일\n충남 감염병관리지원단\n\n코로나19 PCC 논문 억셉트(완료)\n예비방역인력양성교육 3기 (8월 25일, 보령시 쏠레드 호텔 2층 블리스)\nFETP-F 담당자 교육 2단계 (9월월 11일, 과제지도 및 수인성역학조사 절차 강좌)\n\n임연희 교수님 WHO 출판물 중 미세먼지 감축으로 인한 경제적 SAVE 효과 관련 출판물 찾기\n단국대 통계지원팀\n\n현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료), 리비전(진행중)"
   },
   {
     "objectID": "index.html#코로나19판데믹-영향-논문",
