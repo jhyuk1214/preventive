@@ -11,7 +11,7 @@
     "href": "index.html#미세먼지과제",
     "title": "진행사항보고",
     "section": "미세먼지과제",
-    "text": "미세먼지과제\n\n서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석\n\n2017 ~ 2019년 동별 데이터 확보 (완료)\n노출 매핑 분석 (완료)\n건강 영향 분석 (진행중)"
+    "text": "미세먼지과제\n\n서울시 하이브리드 대기오염물질 모델링을 적용한 단기건강영향 분석\n\n2017 ~ 2019년 동별 데이터 확보 (완료)\n노출 매핑 분석 (완료)\n건강 영향 분석 (진행중)\n\n서경대 측정데이터 분석\n\n사망자료연계분석"
   },
   {
     "objectID": "index.html#기후보건과제",
@@ -60,13 +60,13 @@
     "href": "index.html#기타",
     "title": "진행사항보고",
     "section": "기타",
-    "text": "기타\n\n예방의학 및 실습 강의\n예방의학교실 학생 선택실습 일정\n휴가: 8월 28일 ~ 9월 1일\n충남 감염병관리지원단\n\n코로나19 PCC 논문 억셉트(완료)\n예비방역인력양성교육 3기 (8월 25일, 보령시 쏠레드 호텔 2층 블리스)\nFETP-F 담당자 교육 2단계 (9월월 11일, 과제지도 및 수인성역학조사 절차 강좌)\n\n임연희 교수님 WHO 출판물 중 미세먼지 감축으로 인한 경제적 SAVE 효과 관련 출판물 찾기\n단국대 통계지원팀\n\n현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료), 리비전(진행중)"
+    "text": "기타\n\n예방의학 및 실습 강의 계획서\n예방의학교실 학생 선택실습 일정\n휴가: 8월 28일 ~ 9월 1일\n충남 감염병관리지원단\n\n코로나19 PCC 논문 억셉트(완료)\n예비방역인력양성교육 3기 (8월 25일, 보령시 쏠레드 호텔 2층 블리스)\nFETP-F 담당자 교육 2단계 (9월 11일, 과제지도 및 수인성역학조사 절차 강좌)\n\n임연희 교수님 WHO 출판물 중 미세먼지 감축으로 인한 경제적 SAVE 효과 관련 출판물 찾기\n단국대 통계지원팀\n\n현정근교수님: 분석하여 지속 전달 중. npj Regenerative Medicine 제출(완료), 리비전(진행중)"
   },
   {
-    "objectID": "index.html#코로나19판데믹-영향-논문",
-    "href": "index.html#코로나19판데믹-영향-논문",
+    "objectID": "index.html#논문주제1-코로나19판데믹-영향-논문",
+    "href": "index.html#논문주제1-코로나19판데믹-영향-논문",
     "title": "진행사항보고",
-    "section": "코로나19판데믹 영향 논문",
-    "text": "코로나19판데믹 영향 논문\n\nWHO 방법론 리뷰\n\nWHO 논문\nWHO 결과 파일\nWHO 방법론 레퍼런스\n\n데이터: For this study, our main sources of data are reports of ACM as collected and reported by countries’ relevant institutions – from national statistics offices, ministries of health, population registries, etc. These have been collected in several repositories such as the data routinely shared with WHO as part of its standing agreement with member states, Eurostat, The Human Mortality Database (HMD) as part of the Short-Term Mortality Fluctuations (STMF) project (Nemeth, Jdanov, and Shkolnikov ´ , 2021) and the World Mortality Dataset (WMD), as described in Karlinsky and Kobak (2021).\ncovariates\n\na high income country binary indicator\nCOVID-19 test positivity rate\nCOVID-19 death rate\ntemperature\npopulation density\nsociodemographic index (SDI)\nhuman development index (HDI)\nstringency (index for lockdown restrictions and closures)\noverall government response\neconomic (including measures such as income support and debt relief)\ncontainment (combines lockdown restrictions and closures)\nhistoric non-communicable disease rates\nhistoric cardiovascular disease rate\nhistoric HIV rate\nhistoric diabetes prevalence\nlife expectancy\nproportion of the population under-15\nproportion of the population over-65\n\n모델링 방법\n\nDeriving expected mortality for years 2020 and 2021\n\nThose that have historic monthly ACM data (100 countries)\n\n대개 2015-2019년 기간 데이터에 기반\noutcome distribution: negative binomial\nyealy trend: a thin-plate spline\nwithin-year seasonal variation: a cyclic cubic spline\nthe gam function in the mgcv package\nspline model은 각 나라별로 fitted됨.\n\nThose that have historic annual ACM data only (94 countries)\n\n대개 2000-2019년 기간 데이터에 기반\n이전모델에서 monthly term을 제외함 (i.e., a spline in year)\n월별로 사망을 배분하기 위해서, 월별 기온과 사망의 관계를 이용해서 배분함."
+    "section": "논문주제1: 코로나19판데믹 영향 논문",
+    "text": "논문주제1: 코로나19판데믹 영향 논문\n\nWHO 방법론 리뷰\n\nWHO 논문\nWHO 결과 파일\nWHO 방법론 레퍼런스\n\n데이터: For this study, our main sources of data are reports of ACM as collected and reported by countries’ relevant institutions – from national statistics offices, ministries of health, population registries, etc. These have been collected in several repositories such as the data routinely shared with WHO as part of its standing agreement with member states, Eurostat, The Human Mortality Database (HMD) as part of the Short-Term Mortality Fluctuations (STMF) project (Nemeth, Jdanov, and Shkolnikov ´ , 2021) and the World Mortality Dataset (WMD), as described in Karlinsky and Kobak (2021).\ncovariates\n\na high income country binary indicator\nCOVID-19 test positivity rate\nCOVID-19 death rate\ntemperature\npopulation density\nsociodemographic index (SDI)\nhuman development index (HDI)\nstringency (index for lockdown restrictions and closures)\noverall government response\neconomic (including measures such as income support and debt relief)\ncontainment (combines lockdown restrictions and closures)\nhistoric non-communicable disease rates\nhistoric cardiovascular disease rate\nhistoric HIV rate\nhistoric diabetes prevalence\nlife expectancy\nproportion of the population under-15\nproportion of the population over-65\n\n모델링 방법\n\nDeriving expected mortality for years 2020 and 2021\n\nThose that have historic monthly ACM data (100 countries)\n\n대개 2015-2019년 기간 데이터에 기반\noutcome distribution: negative binomial\nyealy trend: a thin-plate spline\nwithin-year seasonal variation: a cyclic cubic spline\nthe gam function in the mgcv package\nspline model은 각 나라별로 fitted됨.\n\nThose that have historic annual ACM data only (94 countries)\n\n대개 2000-2019년 기간 데이터에 기반\n이전모델에서 monthly term을 제외함 (i.e., a spline in year)\n월별로 사망을 배분하기 위해서, 월별 기온과 사망의 관계를 이용해서 배분함."
   }
 ]
